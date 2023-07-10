@@ -1,0 +1,9 @@
+// directions: write a function that takes in a string and reverses the letters.
+
+function FirstReverse(str) { 
+  return str.split('').reverse().join(''); 
+} 
+
+// keep this function call here - user inputs a word to reverse
+
+console.log(FirstReverse(readline()));
