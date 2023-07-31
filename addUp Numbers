@@ -1,0 +1,9 @@
+function addItUp(num){
+// Gauss formula sum from 1 to n = (n*(n+1))/2
+sum = (num * (num+1))/2
+  return sum;
+}
+// Test it
+console.log(addItUp(10));
+console.log(addItUp(4));
+console.log(addItUp(1));
